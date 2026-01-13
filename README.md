@@ -4,7 +4,8 @@ from kivy.uix.button import Button
 
 class MyApp(App):
     def build(self):
-        return Button(text='اضغط هنا يا بطل', background_color=(1, 0
+        return Button(text='اضغط هنا يا بطل', background_color=(0, 1
+        
         , 0, 1))
 
 if __name__ == '__main__':
